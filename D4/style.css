@@ -1,0 +1,14 @@
+h1{
+    color: fuchsia;
+    background-color: aqua;
+    padding: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: brown;
+    background-color: burlywood;
+
+}

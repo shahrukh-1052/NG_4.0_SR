@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center; /* centers heading and box together */
+}
+
+.heading {
+  margin-bottom: 20px; /* space between heading and box */
+}
+
+.box {
+  border: 2px solid #333;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  text-align: center;
+
+  display: inline-block;   /* makes box shrink/grow with content */
+  min-width: 250px;        /* normal starting size */
+  max-width: 600px;        /* optional limit so it doesn’t get too wide */
+}

@@ -1,0 +1,48 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 9em;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column-reverse;  */
+    /* flex-direction: row-reverse; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    
+    border: 10px solid black;
+    height: 50vh;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+    
+}
+
+#box1{
+    background-color: aqua;
+
+}
+
+#box2{
+    background-color: rgb(32, 187, 102);
+    
+}
+
+#box3{
+    background-color: rgb(28, 149, 185);
+    order: -1;
+    
+}
+
+#box4{
+    background-color: rgb(146, 10, 10);
+    
+}
